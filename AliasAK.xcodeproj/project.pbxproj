@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE4B86D51B9EFD940056C07E /* hardModeWords.txt in Resources */ = {isa = PBXBuildFile; fileRef = BE4B86D41B9EFD940056C07E /* hardModeWords.txt */; };
+		BE4B86D81B9F27250056C07E /* easyModeWords.txt in Resources */ = {isa = PBXBuildFile; fileRef = BE4B86D61B9F27250056C07E /* easyModeWords.txt */; };
+		BE4B86D91B9F27250056C07E /* mediumModeWords.txt in Resources */ = {isa = PBXBuildFile; fileRef = BE4B86D71B9F27250056C07E /* mediumModeWords.txt */; };
 		BE62E9FC1B81E6B40005948D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE62E9FB1B81E6B40005948D /* main.m */; };
 		BE62E9FF1B81E6B40005948D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE62E9FE1B81E6B40005948D /* AppDelegate.m */; };
 		BE62EA021B81E6B40005948D /* AliasAK.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE62EA001B81E6B40005948D /* AliasAK.xcdatamodeld */; };
@@ -15,6 +18,14 @@
 		BE62EA0A1B81E6B40005948D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE62EA091B81E6B40005948D /* Images.xcassets */; };
 		BE62EA0D1B81E6B40005948D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE62EA0B1B81E6B40005948D /* LaunchScreen.xib */; };
 		BE62EA191B81E6B50005948D /* AliasAKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE62EA181B81E6B50005948D /* AliasAKTests.m */; };
+		BE62EA2A1B821BB70005948D /* StartGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE62EA291B821BB70005948D /* StartGameViewController.m */; };
+		BE7821C11B872E66002200B7 /* 113.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE7821C01B872E66002200B7 /* 113.jpg */; };
+		BE7821C61B877F3F002200B7 /* card.png in Resources */ = {isa = PBXBuildFile; fileRef = BE7821C51B877F3F002200B7 /* card.png */; };
+		BEB493171B84F92C0082AEB2 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = BEB493161B84F92C0082AEB2 /* background.png */; };
+		BEB493191B84FD830082AEB2 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = BEB493181B84FD830082AEB2 /* down.png */; };
+		BEB4931B1B85364A0082AEB2 /* 112.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEB4931A1B8536490082AEB2 /* 112.jpg */; };
+		BEE3C8791B8DF5E700640D39 /* tenSeconds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BEE3C8781B8DF5E700640D39 /* tenSeconds.mp3 */; };
+		BEE3C87B1B8DF5F100640D39 /* lastSecond.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BEE3C87A1B8DF5F100640D39 /* lastSecond.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE4B86D41B9EFD940056C07E /* hardModeWords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hardModeWords.txt; sourceTree = SOURCE_ROOT; };
+		BE4B86D61B9F27250056C07E /* easyModeWords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = easyModeWords.txt; sourceTree = SOURCE_ROOT; };
+		BE4B86D71B9F27250056C07E /* mediumModeWords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mediumModeWords.txt; sourceTree = SOURCE_ROOT; };
 		BE62E9F61B81E6B40005948D /* AliasAK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliasAK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE62E9FA1B81E6B40005948D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE62E9FB1B81E6B40005948D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +56,15 @@
 		BE62EA121B81E6B40005948D /* AliasAKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliasAKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE62EA171B81E6B50005948D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE62EA181B81E6B50005948D /* AliasAKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AliasAKTests.m; sourceTree = "<group>"; };
+		BE62EA281B821BB70005948D /* StartGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartGameViewController.h; sourceTree = "<group>"; };
+		BE62EA291B821BB70005948D /* StartGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartGameViewController.m; sourceTree = "<group>"; };
+		BE7821C01B872E66002200B7 /* 113.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 113.jpg; sourceTree = SOURCE_ROOT; };
+		BE7821C51B877F3F002200B7 /* card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card.png; sourceTree = SOURCE_ROOT; };
+		BEB493161B84F92C0082AEB2 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = SOURCE_ROOT; };
+		BEB493181B84FD830082AEB2 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = SOURCE_ROOT; };
+		BEB4931A1B8536490082AEB2 /* 112.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 112.jpg; sourceTree = SOURCE_ROOT; };
+		BEE3C8781B8DF5E700640D39 /* tenSeconds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tenSeconds.mp3; sourceTree = SOURCE_ROOT; };
+		BEE3C87A1B8DF5F100640D39 /* lastSecond.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lastSecond.mp3; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +85,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE4B86D31B9EF3760056C07E /* Images and Music */ = {
+			isa = PBXGroup;
+			children = (
+				BE4B86D41B9EFD940056C07E /* hardModeWords.txt */,
+				BE4B86D61B9F27250056C07E /* easyModeWords.txt */,
+				BE4B86D71B9F27250056C07E /* mediumModeWords.txt */,
+				BEB493161B84F92C0082AEB2 /* background.png */,
+				BEB4931A1B8536490082AEB2 /* 112.jpg */,
+				BE7821C01B872E66002200B7 /* 113.jpg */,
+				BEE3C8781B8DF5E700640D39 /* tenSeconds.mp3 */,
+				BEE3C87A1B8DF5F100640D39 /* lastSecond.mp3 */,
+				BE7821C51B877F3F002200B7 /* card.png */,
+				BEB493181B84FD830082AEB2 /* down.png */,
+			);
+			name = "Images and Music";
+			sourceTree = "<group>";
+		};
 		BE62E9ED1B81E6B40005948D = {
 			isa = PBXGroup;
 			children = (
@@ -83,10 +123,13 @@
 		BE62E9F81B81E6B40005948D /* AliasAK */ = {
 			isa = PBXGroup;
 			children = (
+				BE4B86D31B9EF3760056C07E /* Images and Music */,
 				BE62E9FD1B81E6B40005948D /* AppDelegate.h */,
 				BE62E9FE1B81E6B40005948D /* AppDelegate.m */,
 				BE62EA031B81E6B40005948D /* ViewController.h */,
 				BE62EA041B81E6B40005948D /* ViewController.m */,
+				BE62EA281B821BB70005948D /* StartGameViewController.h */,
+				BE62EA291B821BB70005948D /* StartGameViewController.m */,
 				BE62EA061B81E6B40005948D /* Main.storyboard */,
 				BE62EA091B81E6B40005948D /* Images.xcassets */,
 				BE62EA0B1B81E6B40005948D /* LaunchScreen.xib */,
@@ -203,8 +246,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE62EA081B81E6B40005948D /* Main.storyboard in Resources */,
+				BEE3C8791B8DF5E700640D39 /* tenSeconds.mp3 in Resources */,
+				BEE3C87B1B8DF5F100640D39 /* lastSecond.mp3 in Resources */,
+				BEB493171B84F92C0082AEB2 /* background.png in Resources */,
+				BE4B86D51B9EFD940056C07E /* hardModeWords.txt in Resources */,
+				BE4B86D81B9F27250056C07E /* easyModeWords.txt in Resources */,
+				BE4B86D91B9F27250056C07E /* mediumModeWords.txt in Resources */,
+				BEB4931B1B85364A0082AEB2 /* 112.jpg in Resources */,
+				BEB493191B84FD830082AEB2 /* down.png in Resources */,
 				BE62EA0D1B81E6B40005948D /* LaunchScreen.xib in Resources */,
+				BE7821C61B877F3F002200B7 /* card.png in Resources */,
 				BE62EA0A1B81E6B40005948D /* Images.xcassets in Resources */,
+				BE7821C11B872E66002200B7 /* 113.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +277,7 @@
 			files = (
 				BE62EA021B81E6B40005948D /* AliasAK.xcdatamodeld in Sources */,
 				BE62E9FF1B81E6B40005948D /* AppDelegate.m in Sources */,
+				BE62EA2A1B821BB70005948D /* StartGameViewController.m in Sources */,
 				BE62EA051B81E6B40005948D /* ViewController.m in Sources */,
 				BE62E9FC1B81E6B40005948D /* main.m in Sources */,
 			);
@@ -353,9 +407,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yaroslav Brekhunchenko (5DDT3T89XR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yaroslav Brekhunchenko (5DDT3T89XR)";
 				INFOPLIST_FILE = AliasAK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "37195fcb-df91-474b-903e-811d1afa41e8";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -363,9 +421,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yaroslav Brekhunchenko (5DDT3T89XR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yaroslav Brekhunchenko (5DDT3T89XR)";
 				INFOPLIST_FILE = AliasAK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "37195fcb-df91-474b-903e-811d1afa41e8";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -422,6 +485,7 @@
 				BE62EA1E1B81E6B50005948D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE62EA1F1B81E6B50005948D /* Build configuration list for PBXNativeTarget "AliasAKTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +494,7 @@
 				BE62EA211B81E6B50005948D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
