@@ -1442,7 +1442,9 @@ self.pointCommand5++;
     
     
     [winView addSubview:winLabelScore];
+    
     [winView addSubview:winLabel1];
+    
     [winView addSubview:winLabel2];
     
     
